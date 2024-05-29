@@ -11,7 +11,7 @@ curl --location 'https://pagar.taon.app/api/bots/user/10309892732' \
 ```
 ##### Response
 
-```json
+```jsonc
 {
     "id": "", // id do usuário
     "name": "", // Nome completo so usuário
@@ -85,7 +85,7 @@ curl --location 'https://pagar.taon.app/api/bots/pix' \
 
 #####
 
-```json
+```jsonc
 {
     "pay_id": "91c5151a", // id de pagamento pix para usar em https://pagar.taon.app/p/<id>
     "amount": 11, // valor gerado do pix - Pode ser diferente da soma do pedido baseado em saldo remanescente do usuário
