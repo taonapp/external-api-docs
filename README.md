@@ -6,7 +6,7 @@
 
 ##### Request
 ```shell
-curl --location 'https://pagar.taon.app/api/bots/user/10309892732' \
+curl --location 'https://pagar.taon.app/api/bots/user/<id>' \
 --header 'Api-Key: <Api key>'
 ```
 ##### Response
