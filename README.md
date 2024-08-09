@@ -95,5 +95,6 @@ curl --location 'https://pagar.taon.app/api/bots/pix' \
         "qr_code": "" // código QR para pagamento do pix copia e cola
     },
     "products_transaction_id": "" // id do pedido de compra
+    "bypass_product_availability": false // Ignora as regras de tags se for true
 }
 ```
